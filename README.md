@@ -12,6 +12,11 @@ a control, not because it is profitable. The base book lost money after costs.
 There is no broker connection, order router, live runner, dashboard, or
 watchdog in this repository.
 
+**Companion SQL project:**
+<https://github.com/CordiallyMel/nq-market-postgres> — the same NQ one-minute
+source loaded into PostgreSQL with CTEs, window functions, data-quality checks,
+and a separate range-capped analytics model.
+
 ---
 
 ## Default strategy rules

@@ -1,5 +1,12 @@
 # SkyQ_NewLondon — Pattern, News, and MAE Stop Research
 
+> **2026-11-16 update:** the researched default is now **prior-month MAE q50 +
+> a 0.90% London-range cap**, with the cap applied before the MAE statistics are
+> built. The base book remains reproducible with `--base`. The default made
+> **+$97,430.51** over 1,343 trades, PF 1.130, max drawdown $35,184.30, Sharpe
+> 0.59, Sortino 0.67. See `README.md` and `FAILED_VERSIONS.md`. This is still an
+> in-sample research result, not a live track record.
+
 This is a research layer on top of the unchanged base book. None of the filters
 below were added to the base strategy. Everything here is in-sample unless
 explicitly described as prior-month walk-forward.
@@ -252,9 +259,11 @@ the book.
 
 ### Verdict
 
-- **q50 is the only version worth further testing.** It has the smallest
-  drawdown increase ($51.7k vs $57.9k), the most reasonable stop (64.7 points),
-  and the least reliance on time exits. But its first half is negative.
+- **q50 was the only version worth promoting.** It has the smallest drawdown
+  increase ($51.7k vs $57.9k), the most reasonable stop (64.7 points), and the
+  least reliance on time exits. Combined with the 0.90% cap, it became the
+  default at +$97,430.51 and a $35,184.30 drawdown. Its first half was negative
+  without the cap; the cap changes the eligible-entry set.
 - **q75, q90, q95, and the mean are not clean improvements.** They buy nominal
   P&L with 97–281-point stops, much larger drawdowns, and a 33–84% time-exit
   mix. q90/q95 are effectively a different strategy.
@@ -275,8 +284,9 @@ the book.
    month-level screen; month-end does not survive a four-test correction and is
    not additive with the range filter.
 5. **The 09:45–09:59 time bucket is borderline, not established.**
-6. **Prior-month MAE stops are promising but fragile.** q50 deserves a capped,
-   out-of-sample test; q90/q95 do not deserve a promotion.
+6. **Prior-month MAE stops are promising but fragile.** q50 is now the default
+   only in combination with the 0.90% cap; it still needs a rolling
+   out-of-sample test. q90/q95 do not deserve a promotion.
 
 ## Files
 
