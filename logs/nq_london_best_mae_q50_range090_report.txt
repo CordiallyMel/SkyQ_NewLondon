@@ -1,0 +1,77 @@
+SkyQ_NewLondon — DEFAULT: MAE q50 + 0.90% range cap
+==========================================================
+Window: 2018-10-23 to 2026-10-23 (8.00 years)
+Instrument: NQ, 1 contract(s), $20.00/point
+Rules: London range 04:00-09:00 ET | first break 09:30-11:00 ET | 2R | one trade/day
+Filter: skip London ranges wider than 0.90% of entry price
+Costs: $0.62/side commission, 1 tick(s) slippage on entry/stop/time
+Stop: prior-month MAE q0.50 of London range + 1 tick buffer
+
+Headline
+----------------------------------------------------------
+Sessions scanned:       2,066
+London ranges built:    2,060
+No-break days:          105
+Invalid-stop days:      0
+Range-capped days:      457
+Trades:                 1,343  (732 long / 611 short)
+Win rate:               38.12%
+Net P&L:                $97,430.51  (4,871.53 NQ points)
+  before commission:    $99,095.83
+  zero-cost outcome:    $110,510.83
+  commission+slippage:  $13,080.32
+Profit factor:          1.130
+Expectancy/trade:       $72.55
+Average R:              0.065R
+Avg win / avg loss:      $1,659.11 / $-904.98
+Reward/risk:            1.833
+Break-even win rate:    35.29% (actual 38.12%)
+Max drawdown:           $35,184.30
+Max consecutive losses: 14
+Annualized daily Sharpe:   0.59
+Annualized daily Sortino:   0.67
+Avg stop:               50.38 NQ points ($1,007.53 risk)
+Reached 1R / 2R:         48.9% / 29.3%
+
+Year by year
+----------------------------------------------------------
+ year  trades  win_rate_pct  net_pnl  profit_factor  avg_r  max_drawdown
+ 2018       7         14.29 -3726.18          0.080 -0.807       4049.94
+ 2019     202         38.12  4122.50          1.099  0.093       6356.72
+ 2020     128         39.06  1346.82          1.026  0.022      11561.25
+ 2021     208         38.94 21222.05          1.228  0.100      19921.40
+ 2022      46         39.13 -1207.85          0.949  0.098      10944.49
+ 2023     210         39.52 24243.39          1.221  0.117      17254.19
+ 2024     213         36.62  -527.67          0.996  0.038      23415.84
+ 2025     187         40.11 55464.66          1.433  0.086      21857.16
+ 2026     142         34.51 -3507.19          0.978 -0.020      35184.30
+
+By side
+----------------------------------------------------------
+ side  trades  win_rate_pct  net_pnl  profit_factor  avg_r
+ long     732         38.80 71517.96          1.181  0.068
+short     611         37.32 25912.55          1.073  0.061
+
+By exit
+----------------------------------------------------------
+exit_reason  trades  win_rate_pct    net_pnl  profit_factor  avg_r
+       stop     773          0.00 -722087.69          0.000 -1.023
+     target     403        100.00  687300.28            NaN  1.997
+       time     167         65.27  132217.92          5.415  0.438
+
+Monthly consistency
+----------------------------------------------------------
+Profitable months: 48 | Losing months: 33
+Profitable years:  5 | Losing years: 4
+
+Definition notes
+----------------------------------------------------------
+• London high/low uses 04:00-08:59 ET 5-minute bars; 09:00 is excluded.
+• Entries are stop orders at the London levels, active 09:30-10:59 ET.
+• Base stop: one tick beyond the low/high of the last completed 5-minute bar before entry.
+• Default stop: prior-month 50th-percentile truncated MAE, expressed as % of London range, plus one tick.
+• Default filter: skip a session if the London range exceeds 0.90% of the entry price.
+• Entry/exit path is resolved on 1-minute bars; if stop and target share a bar, stop wins.
+• 16:00 ET is a time exit; no overnight risk.
+• One trade per day; the first side to break is the only trade, win or lose.
+• NQ data is a continuous 1-minute series; roll gaps are not separately modeled.

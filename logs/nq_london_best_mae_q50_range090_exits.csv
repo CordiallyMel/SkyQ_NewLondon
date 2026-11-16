@@ -1,0 +1,4 @@
+exit_reason,trades,win_rate_pct,net_pnl,profit_factor,avg_r
+stop,773,0.0,-722087.69,0.0,-1.023
+target,403,100.0,687300.28,,1.997
+time,167,65.27,132217.92,5.415,0.438

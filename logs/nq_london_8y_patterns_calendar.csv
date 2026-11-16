@@ -1,0 +1,9 @@
+group,trades,net_pnl,win_rate_pct,profit_factor,expectancy,avg_r,max_drawdown,p_perm,p_bonferroni,mean_ci_low,mean_ci_high,first_half_net,second_half_net,consistent_halves,calendar_pattern
+Other day,1865,-5622.6,36.94,0.994,-3.01,-0.04,55779.88,0.2844,0.5687,-62.0,56.71,4422.24,-10044.84,False,OpEx
+OpEx Friday,90,-14151.6,24.44,0.734,-157.24,-0.374,18156.72,0.2679,0.5357,-417.35,117.06,-12623.28,-1528.32,True,OpEx
+Other day,1871,-15540.04,36.4,0.983,-8.31,-0.024,50483.16,0.7861,1.0,,,-4346.48,-11193.56,True,First Friday
+First Friday,84,-4234.16,35.71,0.903,-50.41,-0.751,9872.4,0.7661,1.0,,,-3854.56,-379.6,True,First Friday
+Other day,1685,-66374.4,36.02,0.919,-39.39,-0.076,90196.32,0.0125,0.05,,,-29304.96,-37069.44,True,Month-end
+Month-end,270,46600.2,38.52,1.391,172.59,0.075,12451.76,0.0175,0.07,,,21103.92,25496.28,True,Month-end
+Other day,1864,-23896.36,36.32,0.973,-12.82,-0.062,66136.92,0.6657,1.0,,,-3671.52,-20224.84,True,Quarter-end
+Quarter-end,91,4122.16,37.36,1.092,45.3,0.08,7942.4,0.6997,1.0,,,-4529.52,8651.68,False,Quarter-end

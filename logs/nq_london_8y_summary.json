@@ -1,0 +1,772 @@
+{
+  "start": "2018-10-23",
+  "end": "2026-10-23",
+  "years": 8.0,
+  "symbol": "NQ",
+  "contracts": 1,
+  "point_value": 20.0,
+  "tick_size": 0.25,
+  "sessions": 2066,
+  "london_sessions": 2060,
+  "no_break_days": 105,
+  "invalid_stop_days": 0,
+  "trades": 1955,
+  "long_trades": 1024,
+  "short_trades": 931,
+  "trades_per_year": 244.4,
+  "win_rate_pct": 36.37,
+  "net_pnl": -19774.2,
+  "net_points": -988.71,
+  "gross_profit": 922898.36,
+  "gross_loss": 942672.56,
+  "profit_factor": 0.979,
+  "expectancy_per_trade": -10.11,
+  "avg_win": 1298.03,
+  "avg_loss": -757.78,
+  "breakeven_trades": 0,
+  "avg_r": -0.056,
+  "avg_stop_points": 36.49,
+  "max_stop_points": 373.25,
+  "avg_risk_dollars": 729.8,
+  "max_drawdown": 57933.08,
+  "max_consecutive_losses": 13,
+  "sharpe_daily_annualized": -0.12,
+  "commission_total": 2424.2,
+  "slippage_total": 16205.0,
+  "total_costs": 18629.2,
+  "gross_before_commission": -17350.0,
+  "gross_zero_cost": -1145.0,
+  "mfe_1r_pct": 52.28,
+  "mfe_2r_pct": 36.01,
+  "net_per_year": -2471.77,
+  "first_trade": "2018-10-23 09:30:00-04:00",
+  "last_trade": "2026-10-23 09:30:00-04:00",
+  "config": {
+    "symbol": "NQ",
+    "point_value": 20.0,
+    "tick_size": 0.25,
+    "contracts": 1,
+    "commission_per_side": 0.62,
+    "slippage_ticks": 1.0,
+    "stop_buffer_ticks": 1.0,
+    "london_start": "04:00:00",
+    "london_end": "09:00:00",
+    "entry_start": "09:30:00",
+    "entry_end": "11:00:00",
+    "exit_time": "16:00:00",
+    "target_r": 2.0,
+    "stop_lookback_bars": 1,
+    "min_london_bars": 24
+  },
+  "yearly": [
+    {
+      "year": 2018,
+      "trades": 45,
+      "win_rate_pct": 33.33,
+      "net_pnl": -11315.8,
+      "profit_factor": 0.387,
+      "avg_r": -0.036,
+      "max_drawdown": 11069.56
+    },
+    {
+      "year": 2019,
+      "trades": 248,
+      "win_rate_pct": 41.94,
+      "net_pnl": 12877.48,
+      "profit_factor": 1.301,
+      "avg_r": 0.177,
+      "max_drawdown": 5083.28
+    },
+    {
+      "year": 2020,
+      "trades": 241,
+      "win_rate_pct": 32.78,
+      "net_pnl": -20678.84,
+      "profit_factor": 0.798,
+      "avg_r": -0.161,
+      "max_drawdown": 25380.96
+    },
+    {
+      "year": 2021,
+      "trades": 246,
+      "win_rate_pct": 40.65,
+      "net_pnl": 16669.96,
+      "profit_factor": 1.196,
+      "avg_r": -0.116,
+      "max_drawdown": 8250.92
+    },
+    {
+      "year": 2022,
+      "trades": 241,
+      "win_rate_pct": 36.51,
+      "net_pnl": -5753.84,
+      "profit_factor": 0.961,
+      "avg_r": -0.029,
+      "max_drawdown": 19975.92
+    },
+    {
+      "year": 2023,
+      "trades": 245,
+      "win_rate_pct": 35.1,
+      "net_pnl": -13528.8,
+      "profit_factor": 0.864,
+      "avg_r": -0.044,
+      "max_drawdown": 18305.44
+    },
+    {
+      "year": 2024,
+      "trades": 247,
+      "win_rate_pct": 36.44,
+      "net_pnl": 5333.72,
+      "profit_factor": 1.049,
+      "avg_r": -0.106,
+      "max_drawdown": 18296.88
+    },
+    {
+      "year": 2025,
+      "trades": 244,
+      "win_rate_pct": 35.25,
+      "net_pnl": 27547.44,
+      "profit_factor": 1.174,
+      "avg_r": -0.032,
+      "max_drawdown": 17792.32
+    },
+    {
+      "year": 2026,
+      "trades": 198,
+      "win_rate_pct": 31.82,
+      "net_pnl": -30925.52,
+      "profit_factor": 0.829,
+      "avg_r": -0.161,
+      "max_drawdown": 42178.52
+    }
+  ],
+  "side": [
+    {
+      "side": "long",
+      "trades": 1024,
+      "win_rate_pct": 36.72,
+      "net_pnl": 25320.24,
+      "profit_factor": 1.056,
+      "avg_r": -0.07
+    },
+    {
+      "side": "short",
+      "trades": 931,
+      "win_rate_pct": 35.98,
+      "net_pnl": -45094.44,
+      "profit_factor": 0.908,
+      "avg_r": -0.04
+    }
+  ],
+  "exits": [
+    {
+      "exit_reason": "stop",
+      "trades": 1221,
+      "win_rate_pct": 0.0,
+      "net_pnl": -934004.04,
+      "profit_factor": 0.0,
+      "avg_r": -1.202
+    },
+    {
+      "exit_reason": "target",
+      "trades": 669,
+      "win_rate_pct": 100.0,
+      "net_pnl": 884100.44,
+      "profit_factor": NaN,
+      "avg_r": 1.996
+    },
+    {
+      "exit_reason": "time",
+      "trades": 65,
+      "win_rate_pct": 64.62,
+      "net_pnl": 30129.4,
+      "profit_factor": 4.476,
+      "avg_r": 0.365
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2018-10",
+      "trades": 5,
+      "net_pnl": -1891.2,
+      "win_rate_pct": 20.0
+    },
+    {
+      "month": "2018-11",
+      "trades": 22,
+      "net_pnl": -2597.28,
+      "win_rate_pct": 45.45
+    },
+    {
+      "month": "2018-12",
+      "trades": 18,
+      "net_pnl": -6827.32,
+      "win_rate_pct": 22.22
+    },
+    {
+      "month": "2019-01",
+      "trades": 22,
+      "net_pnl": 2317.72,
+      "win_rate_pct": 50.0
+    },
+    {
+      "month": "2019-02",
+      "trades": 20,
+      "net_pnl": -1359.8,
+      "win_rate_pct": 40.0
+    },
+    {
+      "month": "2019-03",
+      "trades": 21,
+      "net_pnl": 2833.96,
+      "win_rate_pct": 42.86
+    },
+    {
+      "month": "2019-04",
+      "trades": 20,
+      "net_pnl": -2264.8,
+      "win_rate_pct": 20.0
+    },
+    {
+      "month": "2019-05",
+      "trades": 22,
+      "net_pnl": -1792.28,
+      "win_rate_pct": 27.27
+    },
+    {
+      "month": "2019-06",
+      "trades": 19,
+      "net_pnl": 2526.44,
+      "win_rate_pct": 42.11
+    },
+    {
+      "month": "2019-07",
+      "trades": 21,
+      "net_pnl": 3523.96,
+      "win_rate_pct": 52.38
+    },
+    {
+      "month": "2019-08",
+      "trades": 21,
+      "net_pnl": -266.04,
+      "win_rate_pct": 38.1
+    },
+    {
+      "month": "2019-09",
+      "trades": 20,
+      "net_pnl": 2165.2,
+      "win_rate_pct": 45.0
+    },
+    {
+      "month": "2019-10",
+      "trades": 22,
+      "net_pnl": 1442.72,
+      "win_rate_pct": 40.91
+    },
+    {
+      "month": "2019-11",
+      "trades": 20,
+      "net_pnl": 1045.2,
+      "win_rate_pct": 40.0
+    },
+    {
+      "month": "2019-12",
+      "trades": 20,
+      "net_pnl": 2705.2,
+      "win_rate_pct": 65.0
+    },
+    {
+      "month": "2020-01",
+      "trades": 21,
+      "net_pnl": 93.96,
+      "win_rate_pct": 38.1
+    },
+    {
+      "month": "2020-02",
+      "trades": 18,
+      "net_pnl": 3767.68,
+      "win_rate_pct": 44.44
+    },
+    {
+      "month": "2020-03",
+      "trades": 15,
+      "net_pnl": -19778.6,
+      "win_rate_pct": 6.67
+    },
+    {
+      "month": "2020-04",
+      "trades": 20,
+      "net_pnl": 2670.2,
+      "win_rate_pct": 40.0
+    },
+    {
+      "month": "2020-05",
+      "trades": 19,
+      "net_pnl": 3326.44,
+      "win_rate_pct": 52.63
+    },
+    {
+      "month": "2020-06",
+      "trades": 22,
+      "net_pnl": -1312.28,
+      "win_rate_pct": 27.27
+    },
+    {
+      "month": "2020-07",
+      "trades": 23,
+      "net_pnl": -1313.52,
+      "win_rate_pct": 39.13
+    },
+    {
+      "month": "2020-08",
+      "trades": 21,
+      "net_pnl": 3558.96,
+      "win_rate_pct": 33.33
+    },
+    {
+      "month": "2020-09",
+      "trades": 20,
+      "net_pnl": -3324.8,
+      "win_rate_pct": 30.0
+    },
+    {
+      "month": "2020-10",
+      "trades": 21,
+      "net_pnl": -2721.04,
+      "win_rate_pct": 38.1
+    },
+    {
+      "month": "2020-11",
+      "trades": 19,
+      "net_pnl": -2093.56,
+      "win_rate_pct": 15.79
+    },
+    {
+      "month": "2020-12",
+      "trades": 22,
+      "net_pnl": -3552.28,
+      "win_rate_pct": 22.73
+    },
+    {
+      "month": "2021-01",
+      "trades": 18,
+      "net_pnl": 1712.68,
+      "win_rate_pct": 44.44
+    },
+    {
+      "month": "2021-02",
+      "trades": 20,
+      "net_pnl": -2914.8,
+      "win_rate_pct": 30.0
+    },
+    {
+      "month": "2021-03",
+      "trades": 22,
+      "net_pnl": 3107.72,
+      "win_rate_pct": 31.82
+    },
+    {
+      "month": "2021-04",
+      "trades": 20,
+      "net_pnl": 1340.2,
+      "win_rate_pct": 45.0
+    },
+    {
+      "month": "2021-05",
+      "trades": 19,
+      "net_pnl": 8586.44,
+      "win_rate_pct": 52.63
+    },
+    {
+      "month": "2021-06",
+      "trades": 21,
+      "net_pnl": -3736.04,
+      "win_rate_pct": 42.86
+    },
+    {
+      "month": "2021-07",
+      "trades": 20,
+      "net_pnl": 4665.2,
+      "win_rate_pct": 55.0
+    },
+    {
+      "month": "2021-08",
+      "trades": 21,
+      "net_pnl": -691.04,
+      "win_rate_pct": 28.57
+    },
+    {
+      "month": "2021-09",
+      "trades": 22,
+      "net_pnl": 1747.72,
+      "win_rate_pct": 36.36
+    },
+    {
+      "month": "2021-10",
+      "trades": 21,
+      "net_pnl": 4858.96,
+      "win_rate_pct": 42.86
+    },
+    {
+      "month": "2021-11",
+      "trades": 20,
+      "net_pnl": -2059.8,
+      "win_rate_pct": 30.0
+    },
+    {
+      "month": "2021-12",
+      "trades": 22,
+      "net_pnl": 52.72,
+      "win_rate_pct": 50.0
+    },
+    {
+      "month": "2022-01",
+      "trades": 21,
+      "net_pnl": -7961.04,
+      "win_rate_pct": 28.57
+    },
+    {
+      "month": "2022-02",
+      "trades": 17,
+      "net_pnl": 1403.92,
+      "win_rate_pct": 35.29
+    },
+    {
+      "month": "2022-03",
+      "trades": 22,
+      "net_pnl": -6657.28,
+      "win_rate_pct": 27.27
+    },
+    {
+      "month": "2022-04",
+      "trades": 19,
+      "net_pnl": 9256.44,
+      "win_rate_pct": 47.37
+    },
+    {
+      "month": "2022-05",
+      "trades": 21,
+      "net_pnl": 5593.96,
+      "win_rate_pct": 47.62
+    },
+    {
+      "month": "2022-06",
+      "trades": 20,
+      "net_pnl": -5844.8,
+      "win_rate_pct": 30.0
+    },
+    {
+      "month": "2022-07",
+      "trades": 19,
+      "net_pnl": 1866.44,
+      "win_rate_pct": 36.84
+    },
+    {
+      "month": "2022-08",
+      "trades": 22,
+      "net_pnl": -1072.28,
+      "win_rate_pct": 36.36
+    },
+    {
+      "month": "2022-09",
+      "trades": 22,
+      "net_pnl": -867.28,
+      "win_rate_pct": 31.82
+    },
+    {
+      "month": "2022-10",
+      "trades": 20,
+      "net_pnl": 2510.2,
+      "win_rate_pct": 40.0
+    },
+    {
+      "month": "2022-11",
+      "trades": 20,
+      "net_pnl": -134.8,
+      "win_rate_pct": 45.0
+    },
+    {
+      "month": "2022-12",
+      "trades": 18,
+      "net_pnl": -3847.32,
+      "win_rate_pct": 33.33
+    },
+    {
+      "month": "2023-01",
+      "trades": 20,
+      "net_pnl": 1645.2,
+      "win_rate_pct": 50.0
+    },
+    {
+      "month": "2023-02",
+      "trades": 18,
+      "net_pnl": -7382.32,
+      "win_rate_pct": 11.11
+    },
+    {
+      "month": "2023-03",
+      "trades": 20,
+      "net_pnl": -3179.8,
+      "win_rate_pct": 30.0
+    },
+    {
+      "month": "2023-04",
+      "trades": 18,
+      "net_pnl": 2947.68,
+      "win_rate_pct": 50.0
+    },
+    {
+      "month": "2023-05",
+      "trades": 20,
+      "net_pnl": 1255.2,
+      "win_rate_pct": 40.0
+    },
+    {
+      "month": "2023-06",
+      "trades": 22,
+      "net_pnl": -2937.28,
+      "win_rate_pct": 36.36
+    },
+    {
+      "month": "2023-07",
+      "trades": 21,
+      "net_pnl": 568.96,
+      "win_rate_pct": 47.62
+    },
+    {
+      "month": "2023-08",
+      "trades": 23,
+      "net_pnl": 5481.48,
+      "win_rate_pct": 39.13
+    },
+    {
+      "month": "2023-09",
+      "trades": 21,
+      "net_pnl": -9996.04,
+      "win_rate_pct": 9.52
+    },
+    {
+      "month": "2023-10",
+      "trades": 20,
+      "net_pnl": -1179.8,
+      "win_rate_pct": 35.0
+    },
+    {
+      "month": "2023-11",
+      "trades": 22,
+      "net_pnl": -3592.28,
+      "win_rate_pct": 18.18
+    },
+    {
+      "month": "2023-12",
+      "trades": 20,
+      "net_pnl": 2840.2,
+      "win_rate_pct": 55.0
+    },
+    {
+      "month": "2024-01",
+      "trades": 21,
+      "net_pnl": -1661.04,
+      "win_rate_pct": 28.57
+    },
+    {
+      "month": "2024-02",
+      "trades": 21,
+      "net_pnl": -2081.04,
+      "win_rate_pct": 38.1
+    },
+    {
+      "month": "2024-03",
+      "trades": 19,
+      "net_pnl": -38.56,
+      "win_rate_pct": 36.84
+    },
+    {
+      "month": "2024-04",
+      "trades": 20,
+      "net_pnl": 2275.2,
+      "win_rate_pct": 25.0
+    },
+    {
+      "month": "2024-05",
+      "trades": 22,
+      "net_pnl": 1967.72,
+      "win_rate_pct": 27.27
+    },
+    {
+      "month": "2024-06",
+      "trades": 18,
+      "net_pnl": 2157.68,
+      "win_rate_pct": 38.89
+    },
+    {
+      "month": "2024-07",
+      "trades": 23,
+      "net_pnl": -4043.52,
+      "win_rate_pct": 26.09
+    },
+    {
+      "month": "2024-08",
+      "trades": 20,
+      "net_pnl": -99.8,
+      "win_rate_pct": 45.0
+    },
+    {
+      "month": "2024-09",
+      "trades": 20,
+      "net_pnl": -6989.8,
+      "win_rate_pct": 25.0
+    },
+    {
+      "month": "2024-10",
+      "trades": 22,
+      "net_pnl": 6667.72,
+      "win_rate_pct": 45.45
+    },
+    {
+      "month": "2024-11",
+      "trades": 20,
+      "net_pnl": 5615.2,
+      "win_rate_pct": 60.0
+    },
+    {
+      "month": "2024-12",
+      "trades": 21,
+      "net_pnl": 1563.96,
+      "win_rate_pct": 42.86
+    },
+    {
+      "month": "2025-01",
+      "trades": 20,
+      "net_pnl": 4170.2,
+      "win_rate_pct": 45.0
+    },
+    {
+      "month": "2025-02",
+      "trades": 19,
+      "net_pnl": 12461.44,
+      "win_rate_pct": 42.11
+    },
+    {
+      "month": "2025-03",
+      "trades": 20,
+      "net_pnl": -10344.8,
+      "win_rate_pct": 20.0
+    },
+    {
+      "month": "2025-04",
+      "trades": 20,
+      "net_pnl": 27070.2,
+      "win_rate_pct": 40.0
+    },
+    {
+      "month": "2025-05",
+      "trades": 20,
+      "net_pnl": -2769.8,
+      "win_rate_pct": 30.0
+    },
+    {
+      "month": "2025-06",
+      "trades": 19,
+      "net_pnl": -3948.56,
+      "win_rate_pct": 36.84
+    },
+    {
+      "month": "2025-07",
+      "trades": 22,
+      "net_pnl": 1867.72,
+      "win_rate_pct": 31.82
+    },
+    {
+      "month": "2025-08",
+      "trades": 20,
+      "net_pnl": 7520.2,
+      "win_rate_pct": 45.0
+    },
+    {
+      "month": "2025-09",
+      "trades": 21,
+      "net_pnl": -4341.04,
+      "win_rate_pct": 28.57
+    },
+    {
+      "month": "2025-10",
+      "trades": 22,
+      "net_pnl": -4377.28,
+      "win_rate_pct": 36.36
+    },
+    {
+      "month": "2025-11",
+      "trades": 19,
+      "net_pnl": 10166.44,
+      "win_rate_pct": 47.37
+    },
+    {
+      "month": "2025-12",
+      "trades": 22,
+      "net_pnl": -9927.28,
+      "win_rate_pct": 22.73
+    },
+    {
+      "month": "2026-01",
+      "trades": 21,
+      "net_pnl": -3991.04,
+      "win_rate_pct": 19.05
+    },
+    {
+      "month": "2026-02",
+      "trades": 20,
+      "net_pnl": -12314.8,
+      "win_rate_pct": 35.0
+    },
+    {
+      "month": "2026-03",
+      "trades": 21,
+      "net_pnl": -411.04,
+      "win_rate_pct": 33.33
+    },
+    {
+      "month": "2026-04",
+      "trades": 19,
+      "net_pnl": 7351.44,
+      "win_rate_pct": 47.37
+    },
+    {
+      "month": "2026-05",
+      "trades": 20,
+      "net_pnl": -8609.8,
+      "win_rate_pct": 25.0
+    },
+    {
+      "month": "2026-06",
+      "trades": 22,
+      "net_pnl": -12547.28,
+      "win_rate_pct": 18.18
+    },
+    {
+      "month": "2026-07",
+      "trades": 21,
+      "net_pnl": 4643.96,
+      "win_rate_pct": 38.1
+    },
+    {
+      "month": "2026-08",
+      "trades": 20,
+      "net_pnl": -16144.8,
+      "win_rate_pct": 25.0
+    },
+    {
+      "month": "2026-09",
+      "trades": 18,
+      "net_pnl": 16417.68,
+      "win_rate_pct": 55.56
+    },
+    {
+      "month": "2026-10",
+      "trades": 16,
+      "net_pnl": -5319.84,
+      "win_rate_pct": 25.0
+    }
+  ]
+}

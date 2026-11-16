@@ -1,0 +1,17 @@
+filter,sample,trades,net_pnl,win_rate_pct,profit_factor,expectancy,avg_r,max_drawdown,first_half_net,second_half_net,consistent_halves
+Base — all trades,2018-10-23..2026-10-23,1955,-19774.2,36.37,0.979,-10.11,-0.056,57933.08,-8201.04,-11573.16,True
+Skip Friday,all trades,1579,2522.04,37.05,1.003,1.6,-0.014,44391.32,-6084.28,8606.32,False
+Skip Monday,all trades,1574,1803.24,35.83,1.002,1.15,-0.092,45947.6,-7020.48,8823.72,False
+Skip 10:00-10:59 entries,all trades,1777,5046.52,36.63,1.006,2.84,-0.055,50229.52,-70.64,5117.16,False
+Skip range > 0.9%,all trades,1498,64302.48,37.85,1.108,42.93,0.016,33542.6,53075.92,11226.56,True
+Long only,all trades,1024,25320.24,36.72,1.056,24.73,-0.07,34587.88,31769.08,-6448.84,False
+Short only,all trades,931,-45094.44,35.98,0.908,-48.44,-0.04,59116.44,-39970.12,-5124.32,True
+Event sample base,2019-05-10..2026-10-14,1813,-7618.12,36.4,0.992,-4.2,-0.056,57933.08,891.36,-8509.48,False
+Skip NFP/CPI/FOMC days,event-covered,1596,-3709.04,36.59,0.995,-2.32,-0.018,49515.8,8159.04,-11868.08,False
+Only NFP/CPI/FOMC days,event-covered,217,-3909.08,35.02,0.966,-18.01,-0.339,19128.52,-7267.68,3358.6,False
+Skip NFP days,event-covered,1733,-8363.92,36.35,0.99,-4.83,-0.025,56361.92,2168.48,-10532.4,False
+Skip CPI days,event-covered,1735,-4956.4,36.43,0.994,-2.86,-0.055,49944.4,4635.96,-9592.36,False
+Skip FOMC days,event-covered,1751,-6866.24,36.61,0.992,-3.92,-0.054,59075.64,3694.8,-10561.04,False
+Skip pre-open NFP/CPI,event-covered,1655,-5702.2,36.37,0.993,-3.45,-0.022,48373.24,5913.08,-11615.28,False
+Skip OpEx,all trades,1865,-5622.6,36.94,0.994,-3.01,-0.04,55779.88,4422.24,-10044.84,False
+Skip month-end,all trades,1685,-66374.4,36.02,0.919,-39.39,-0.076,90196.32,-29304.96,-37069.44,True

@@ -1,0 +1,23 @@
+SkyQ_NewLondon — Prior-Month Truncated-MAE Stop Experiment
+==================================================================
+MAE definition: adverse excursion from entry until the base 2R target is
+touched, then truncated.  If no target, measured through the 16:00 ET exit.
+Stop: prior calendar month's MAE statistic (quantile or mean), expressed
+as % of the London range; target remains 2R from the new stop.  No current-month data enters
+the stop for that month.
+
+    variant  quantile     stat  trades  win_rate_pct   net_pnl  profit_factor  expectancy  avg_r  max_drawdown  avg_stop_points  targets  stops  time_exits
+base_subset      0.50 quantile    1928         36.31 -15285.72          0.984       -7.93 -0.059      57933.08            36.70      659   1206          63
+   mae_stop      0.50 quantile    1928         38.28  61083.59          1.044       31.68  0.039      51675.40            64.66      536   1106         286
+base_subset      0.75 quantile    1928         36.31 -15285.72          0.984       -7.93 -0.059      57933.08            36.70      659   1206          63
+   mae_stop      0.75 quantile    1928         44.81 136907.96          1.070       71.01  0.039      78574.44           134.92      260    706         962
+base_subset      0.90 quantile    1928         36.31 -15285.72          0.984       -7.93 -0.059      57933.08            36.70      659   1206          63
+   mae_stop      0.90 quantile    1928         48.76 167195.23          1.077       86.72  0.033      90823.04           221.52       94    370        1464
+base_subset      0.95 quantile    1928         36.31 -15285.72          0.984       -7.93 -0.059      57933.08            36.70      659   1206          63
+   mae_stop      0.95 quantile    1928         49.74 168568.32          1.076       87.43  0.027      90875.13           281.38       46    255        1627
+base_subset      0.50     mean    1928         36.31 -15285.72          0.984       -7.93 -0.059      57933.08            36.70      659   1206          63
+   mae_stop      0.50     mean    1928         42.12  68479.46          1.039       35.52  0.037      78848.14            97.32      374    920         634
+
+The base_subset rows are the same entry dates as the MAE rows, so the
+comparison is apples-to-apples.  Early months without a full prior month
+of observations are skipped.
